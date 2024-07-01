@@ -537,7 +537,7 @@ app.post("/api/review/:tourId", async (req, res) => {
   if (!username && !review_text && rating == null) {
     return res
       .status(400)
-      .json({ success: false, message: "All fields are required" });
+      .json({ success: false, message: "All fields are required." });
   }
 
   if (!review_text) {
@@ -596,7 +596,7 @@ app.post("/api/booking", async (req, res) => {
       .status(200)
       .json({
         success: true,
-        message: "Your tour is booked",
+        message: "Your tour is booked.",
         data: result.rows[0],
       });
   } catch (error) {
