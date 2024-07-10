@@ -17,4 +17,4 @@
 
 🍒pg: แพคเกจนี้ใช้ในการเชื่อมต่อกับฐานข้อมูล PostgreSQL จาก Node.js.🍒
 
-🍒[Go to Website](https://react-aventure-heroes-details.vercel.app/)🍒
+🍒[Go to Website](https://pern-stack-tours-travel-frontend.vercel.app/)🍒
